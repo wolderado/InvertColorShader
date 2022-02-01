@@ -6,4 +6,11 @@ I'm giving it for free! You are free to use it in any way you want (commercial o
 
 Though I would appreciate if you credit me in the projects you're working on
 
+**Features:**
+- Inverts Color (Any pixel on the screen, UI image or not)
+- Mask Texture
+- Texture Tint
+
+
+
 Keep developing!
