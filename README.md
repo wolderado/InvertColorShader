@@ -29,7 +29,7 @@ Though I would appreciate if you credit me in the projects you're working on
 - Thats it! 
 
 **Issues**
-- Sidenote: Source Image property of the Image component does not work with the shader. So it does nothing. If you want to change the mask, change the Tex property of the material)  
+- Source Image property of the Image component does not work with the shader. So it does nothing. If you want to change the mask, change the Tex property of the material)  
 - The mask texture needs to have alpha. So the pixels of the texture where you want it to invert should have bigger than 0 alpha and other parts should have exactly 0 alpha. So a black and white texture would not work.
 - Does not support canvas group alpha or half transparency. It either has full inversion or not
 - Doesn't mask an another image this shader shader. So no two images can combine. One will pass through another
