@@ -10,6 +10,7 @@ Though I would appreciate if you credit me in the projects you're working on
 - Inverts Color (Any pixel on the screen, UI image or not)
 - Mask Texture
 - Texture Tint
+- Works with existing Unity UI features such as filled or sliced image
 
 
 
