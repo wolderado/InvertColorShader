@@ -12,6 +12,25 @@ Though I would appreciate if you credit me in the projects you're working on
 - Texture Tint
 - Works with existing Unity UI features such as filled or sliced image
 
+![Image1](https://i.imgur.com/Zt2huoW.png)
+
+![Image2](https://i.imgur.com/8m64mT8.gif)
 
 
-Keep developing!
+**How to use?**
+- Import the shader to your project (drag-drop to a folder)
+- Create a new Material and change the Shader type to InvertUI
+- Optional: Pick a mask texture
+- Create an image with a canvas.
+- Assign the material you've created to the material property of the image ([See here](https://i.imgur.com/eEKmjZN.png))
+- Thats it! 
+
+**Issues**
+- Sidenote: Source Image property of the Image component does not work with the shader. So it does nothing. If you want to change the mask, change the Tex property of the material)  
+- The mask texture needs to have alpha. So the pixels of the texture where you want it to invert should have bigger than 0 alpha and other parts should have exactly 0 alpha. So a black and white texture would not work.
+- Does not support canvas group alpha or half transparency. It either has full inversion or not
+- Doesn't mask an another image this shader shader. So no two images can combine. One will pass through another
+
+
+
+I hope this helps! Keep developing!
